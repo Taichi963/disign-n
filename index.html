@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>DesignN</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <img src="img/logo.png" alt="">
+        </h1>
+      <nav class="pc_nav">
+        <ul>
+          <li class="nav-item"><a href="#news"><span>N</span><span>E</span><span>W</span><span>S</span></a></li>
+          <li class="nav-item"><a href="#concept"><span>C</span><span>O</span><span>N</span><span>C</span><span>E</span><span>P</span><span>T</span></a></li>
+          <li class="nav-item"><a href="#service"><span>S</span><span>E</span><span>R</span><span>V</span><span>I</span><span>C</span><span>E</span></a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="sp-nav-wrapper">
+        <button class="btn-menu">メニュー</button>
+        <nav class="sp_nav">
+          <ul class="nav-items">
+            <li><a href="#news">news</a></li>
+            <li><a href="#concept">concept</a></li>
+            <li><a href="#service">service</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <div class="key_visual">
+    <img src="img/pc_mv.jpg" alt="">
+    <img src="img/sp_mv.jpg" alt="">
+  </div>
+  <main class="wrapper">
+    <!-- news start -->
+    <section class="news" id="news">
+      <h2 class="section-title">NEWS</h2>
+      <p class="sub-title">お知らせ</p>
+      <ul class="news-wrapper">
+        <li>
+          <div class="news-content">
+            <time class="news-time"><a href="#">2023.03.20</a></time>
+            <p class="news-text">ホームページをリニューアルしました !</p>
+          </div>
+        </li>
+        <li>
+          <div class="news-content">
+            <time class="news-time"><a href="#">2023.03.1</a></time>
+            <p class="news-text">テキストが入りますテキストが入ります。</p>
+          </div>
+        </li>
+        <li>
+          <div class="news-content">
+            <time class="news-time"><a href="#">2023.02.20</a></time>
+            <p class="news-text">テキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入ります。</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- news end -->
+    <!-- concept start -->
+    <section class="concept" id="concept">
+      <div class="left-fade concept-img">
+        <img src="img/concept.jpg" alt="">
+      </div>
+      <div class="concept-content right-fade">
+        <h2 class="section-title concept-title">デザインで<br>お客様の願いを叶える</h2>
+        <p class="concept-text">お客様の願いを叶えること。<br>
+          それがWebサイトのゴールであり、私たちが目指すことだと信じでいます。<br>
+          夢を実現する手助けをさせてください。</p>
+      </div>
+    </section>
+    <!-- concept end -->
+    <!-- service start -->
+    <section class="service" id="service">
+      <h2 class="section-title">SERVICE</h2>
+      <p class="sub-title">サービス</p>
+      <div class="service-wrapper">
+        <div class="service-items">
+          <div class="service-item">
+            <img src="img/design.jpg" alt="">
+            <p class="service-title">デザイン</p>
+          </div>
+          <div class="service-item">
+            <img src="img/coding.jpg" alt="">
+            <p class="service-title">コーディング</p>
+          </div>
+          <div class="service-item">
+            <img src="img/app.jpg" alt="">
+            <p class="service-title">アプリ開発</p>
+          </div>
+        </div>
+        <div class="service-btn">
+          <a href="#">サービス一覧</a>
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+  </main>
+  <footer>
+    <p><small>&copy;DesignN</small></p>
+  </footer>
+</body>
+<script src="script/libs/jquery.min.js"></script>
+<script src="script/libs/jquery.inview.min.js"></script>
+<script src="script/main.js"></script>
+</html>
